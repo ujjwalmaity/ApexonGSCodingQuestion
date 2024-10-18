@@ -7,6 +7,10 @@ public class Main {
 
         // Given A Word Find The Longest Word In A Dictionary
         Q2GivenAWordFindTheLongestWordInADictionary q2 = new Q2GivenAWordFindTheLongestWordInADictionary();
-        q2.call();
+//        q2.call();
+
+        // Inorder Traversal Of Binary Tree
+        Q3InorderTraversalOfBinaryTree q3 = new Q3InorderTraversalOfBinaryTree();
+        q3.call();
     }
 }
