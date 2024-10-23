@@ -15,6 +15,10 @@ public class Main {
 
         // Find The Final Co-ordinates Reached By Following A Sequence Of Directions
         Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections q4 = new Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections();
-        q4.call();
+//        q4.call();
+
+        // Pascal Triangle
+        PascalTriangle q5 = new PascalTriangle();
+        q5.call(4);
     }
 }
