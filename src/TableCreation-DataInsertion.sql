@@ -2,22 +2,22 @@ create database db_7_apexon;
 use db_7_apexon;
 
 CREATE TABLE Departments (
-    department_id INT AUTO_INCREMENT PRIMARY KEY,
-    department_name VARCHAR(50)
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50)
 );
 
 CREATE TABLE Employees (
-    employee_id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     salary DECIMAL(10, 2),
     department_id INT,
-    FOREIGN KEY (department_id) REFERENCES Departments(department_id)
+    FOREIGN KEY (department_id) REFERENCES Departments(id)
 );
 
 CREATE TABLE Projects (
-    project_id INT AUTO_INCREMENT PRIMARY KEY,
-    project_name VARCHAR(100),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100),
     start_date DATE,
     end_date DATE,
     budget DECIMAL(15, 2)
@@ -28,11 +28,11 @@ CREATE TABLE EmployeeProjects (
     project_id INT,
     hours_worked INT,
     PRIMARY KEY (employee_id, project_id),
-    FOREIGN KEY (employee_id) REFERENCES Employees(employee_id),
-    FOREIGN KEY (project_id) REFERENCES Projects(project_id)
+    FOREIGN KEY (employee_id) REFERENCES Employees(id),
+    FOREIGN KEY (project_id) REFERENCES Projects(id)
 );
 
-INSERT INTO Departments (department_name)
+INSERT INTO Departments (name)
 VALUES 
 ('HR'),
 ('IT'),
@@ -68,7 +68,7 @@ VALUES
 ('Alexander', 'Allen', 5300, 9),
 ('Mia', 'King', 7100, 10);
 
-INSERT INTO Projects (project_name, start_date, end_date, budget)
+INSERT INTO Projects (title, start_date, end_date, budget)
 VALUES
 ('Project Alpha', '2024-01-01', '2024-06-30', 200000),
 ('Project Beta', '2024-02-15', '2024-09-30', 300000),

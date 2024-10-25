@@ -18,7 +18,7 @@ select department_id, SUM(salary) as total_salary from Employees
 group by department_id
 having total_salary > 30000;
 
-select employee_id, salary,
+select id, salary,
     case
         when salary > 7000 then "Above $7000"
         else 'Below or Equal to $7000'
@@ -32,7 +32,7 @@ select * from Projects
 where start_date >= date_sub(curdate(), interval 6 month);
 
 select * from Projects p
-right join EmployeeProjects ep on p.project_id = ep.project_id;
+right join EmployeeProjects ep on p.id = ep.project_id;
 
 # truncate table EmployeeProjects;
 # drop table EmployeeProjects;
