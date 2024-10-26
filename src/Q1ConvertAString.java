@@ -6,7 +6,9 @@
 /// a into a1
 
 public class Q1ConvertAString {
-    public void call(String text) {
+    public void call() {
+        String text = "aabbb";
+
         StringBuilder str = new StringBuilder();
 
         char lastChar = text.charAt(0);
@@ -27,6 +29,6 @@ public class Q1ConvertAString {
         str.append(lastChar);
         str.append(count);
 
-        System.out.println(str);
+        System.out.println(str); // a2b3
     }
 }
