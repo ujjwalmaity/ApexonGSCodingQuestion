@@ -17,8 +17,5 @@ public class Main {
         Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections q4 = new Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections();
 //        q4.call();
 
-        // Pascal Triangle
-        PascalTriangle q5 = new PascalTriangle();
-        q5.call(4);
     }
 }

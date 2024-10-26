@@ -10,7 +10,7 @@ public class Q2GivenAWordFindTheLongestWordInADictionary {
         // Returns 9 (LODGESSSS)
 
         String[] dict = {"CODGE", "ODG", "LODGES", "SODG", "dodge", "mODJ", "LODGESSSS"};
-        String toSearch = "ODG";
+        String toSearch = "ODG"; // LODGESSSS
 
         String res = "";
         int resLength = 0;
@@ -23,6 +23,6 @@ public class Q2GivenAWordFindTheLongestWordInADictionary {
             }
         }
 
-        System.out.println(res); // LODGESSSS
+        System.out.println(res);
     }
 }

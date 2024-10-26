@@ -1,4 +1,3 @@
-
 /// Convert a string as given in the format below:
 /// Example:
 /// aabbb into a2b3
@@ -7,7 +6,7 @@
 
 public class Q1ConvertAString {
     public void call() {
-        String text = "aabbb";
+        String text = "aabbb"; // a2b3
 
         StringBuilder str = new StringBuilder();
 
@@ -29,6 +28,6 @@ public class Q1ConvertAString {
         str.append(lastChar);
         str.append(count);
 
-        System.out.println(str); // a2b3
+        System.out.println(str);
     }
 }
