@@ -23,6 +23,11 @@ public class Q0Main {
 
         // Internal Working of HashMap
         Q6InternalWorkingOfHashMap q6 = new Q6InternalWorkingOfHashMap();
-        q6.call();
+//        q6.call();
+
+        // Prefix Search
+        // Return All The Words Starting With The Prefix
+        Q7ReturnAllTheWordsStartingWithThePrefix q7 = new Q7ReturnAllTheWordsStartingWithThePrefix();
+        q7.call();
     }
 }

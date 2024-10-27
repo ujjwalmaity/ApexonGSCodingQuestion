@@ -1,15 +1,29 @@
 import java.util.*;
 
-public class ReturnAllTheWordsStartingWithThePrefix {
+public class Q7ReturnAllTheWordsStartingWithThePrefix {
 
-    void call(String[] words, String prefix) {
-        System.out.println(Arrays.toString(words));
-        System.out.println();
+    void call() {
+        // Prefix Search
+        // Given a document and a prefix, return all the words starting with the prefix.
+        // Trie should be the choice of available data structures.
+        //
+        // Example:
+        // Say the document is a string of words,
+        // String[] arr = {"apple", "applet", "bread", "aper"};
+        // String prefix = "app";
+        //
+        // Return apple, applet
+
+        String[] words = {"apple", "applet", "bread", "aper"};
+        String prefix = "app";
 
         Trie trie = new Trie();
         for (String word : words) trie.insert(word);
 
         List<String> result = trie.getWordsWithPrefix(prefix);
+
+        System.out.println(Arrays.toString(words));
+        System.out.println(prefix + "\n");
         System.out.println("Words starting with prefix \"" + prefix + "\": " + result);
     }
 

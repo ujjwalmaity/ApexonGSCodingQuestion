@@ -46,7 +46,7 @@ class MyKey {
     @Override
     public int hashCode() {
         System.out.println("Calling hashCode() " + id);
-        // return super.hashCode();
+//        return super.hashCode();
 
         return id;
     }
@@ -54,7 +54,7 @@ class MyKey {
     @Override
     public boolean equals(Object obj) {
         System.out.println("Calling equals() " + id);
-        // return super.equals(obj);
+//        return super.equals(obj);
 
         if (this == obj) return true; // Same reference
         if (obj == null || getClass() != obj.getClass()) return false; // Null or different class
