@@ -1,17 +1,18 @@
+
+// Implement your custom atoi function in Java.
+// Given a string, you have to convert into integer.
+// The input string may contain alphabets and special characters alongside numbers (both negative and positive).
+//
+// Examples:
+// String str1 = "123"; // Return 123 (in integer format)
+//
+// String str2 = "-123"; // Return -123
+//
+// String str3 = "1a23"; // Return -1 (Invalid entry)
+
 public class Q10StringToIntegerWriteYourOwnAtoi {
 
     public void call() {
-        // Implement your custom atoi function in Java.
-        // Given a string, you have to convert into integer.
-        // The input string may contain alphabets and special characters alongside numbers (both negative and positive).
-        //
-        // Examples:
-        // String str1 = "123"; // Return 123 (in integer format)
-        //
-        // String str2 = "-123"; // Return -123
-        //
-        // String str3 = "1a23"; // Return -1 (Invalid entry)
-
         String str = "123"; // 123
 //        String str = "-123"; // -123
 //        String str = "1a23"; // -1

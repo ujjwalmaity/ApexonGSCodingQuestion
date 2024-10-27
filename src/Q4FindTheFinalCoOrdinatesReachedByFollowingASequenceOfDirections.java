@@ -1,18 +1,20 @@
-public class Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections {
-    public void call() {
-        //Given the string (containing directions e.g., U, R, D, L) and initial coordinates (0,0),
-        //return the final coordinates after traversing the string.
-        //
-        //Examples:
-        //Given (0,0) and String - "UUU"
-        //    Answer : (0,3)
-        //
-        //Given (0,0) and String - "URRDDL"
-        //    Answer : (1,-1)
-        //
-        //Additional testcase : String - "DOWN UP 2xRIGHT DOWN 3xLEFT"
-        //    Answer : (-1,-1)
 
+// Given the string (containing directions e.g., U, R, D, L) and initial coordinates (0,0),
+// return the final coordinates after traversing the string.
+//
+// Examples:
+// Given (0,0) and String - "UUU"
+//    Answer : (0,3)
+//
+// Given (0,0) and String - "URRDDL"
+//    Answer : (1,-1)
+//
+// Additional testcase : String - "DOWN UP 2xRIGHT DOWN 3xLEFT"
+//    Answer : (-1,-1)
+
+public class Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections {
+
+    public void call() {
 //        String str = "UUU"; // (0,3)
 //        String str = "URRDDL"; // (1,-1)
         String str = "DOWN UP 2xRIGHT DOWN 3xLEFT"; // (-1,-1)
@@ -54,4 +56,5 @@ public class Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections {
 
         return tempStr.toString();
     }
+
 }

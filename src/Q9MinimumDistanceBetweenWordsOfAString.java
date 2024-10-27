@@ -1,16 +1,17 @@
+
+// Given a sentence/phrase and two words,
+// return the minimum distance between the words.
+//
+// Example:
+// String str = "the quick the brown quick brown the frog"
+// String word1 = "quick"
+// String word2 = "frog"
+//
+// Return 2
+
 public class Q9MinimumDistanceBetweenWordsOfAString {
 
     public void call() {
-        // Given a sentence/phrase and two words,
-        // return the minimum distance between the words.
-        //
-        // Example:
-        // String str = "the quick the brown quick brown the frog"
-        // String word1 = "quick"
-        // String word2 = "frog"
-        //
-        // Return 2
-
         String str = "the quick the brown quick brown the frog";
         String word1 = "quick";
         String word2 = "frog";
@@ -37,4 +38,5 @@ public class Q9MinimumDistanceBetweenWordsOfAString {
 
         System.out.println(minDistance);
     }
+
 }

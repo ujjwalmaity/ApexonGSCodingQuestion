@@ -1,19 +1,19 @@
 import java.util.*;
 
+// Prefix Search
+// Given a document and a prefix, return all the words starting with the prefix.
+// Trie should be the choice of available data structures.
+//
+// Example:
+// Say the document is a string of words,
+// String[] arr = {"apple", "applet", "bread", "aper"};
+// String prefix = "app";
+//
+// Return apple, applet
+
 public class Q7ReturnAllTheWordsStartingWithThePrefix {
 
     void call() {
-        // Prefix Search
-        // Given a document and a prefix, return all the words starting with the prefix.
-        // Trie should be the choice of available data structures.
-        //
-        // Example:
-        // Say the document is a string of words,
-        // String[] arr = {"apple", "applet", "bread", "aper"};
-        // String prefix = "app";
-        //
-        // Return apple, applet
-
         String[] words = {"apple", "applet", "bread", "aper"};
         String prefix = "app";
 
@@ -82,4 +82,5 @@ public class Q7ReturnAllTheWordsStartingWithThePrefix {
             flag = false;
         }
     }
+
 }

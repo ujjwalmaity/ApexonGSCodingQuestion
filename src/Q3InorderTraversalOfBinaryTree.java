@@ -1,4 +1,8 @@
+
+// Write a program to print the inorder traversal of a binary tree.
+
 public class Q3InorderTraversalOfBinaryTree {
+
     public void call() {
         // Creating a simple binary tree
         //      1
@@ -26,6 +30,7 @@ public class Q3InorderTraversalOfBinaryTree {
         inorderTraversal(node.right); // Visit right subtree
 
     }
+
 }
 
 class TreeNode {

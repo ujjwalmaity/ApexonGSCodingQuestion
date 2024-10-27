@@ -1,7 +1,9 @@
+
 public class Q0Main {
+
     public static void main(String[] args) {
-        // Convert a String "aabbb" to "a2b3"
-        Q1ConvertAString q1 = new Q1ConvertAString();
+        // Run Length Encoding
+        Q1RunLengthEncoding q1 = new Q1RunLengthEncoding();
 //        q1.call();
 
         // Given A Word Find The Longest Word In A Dictionary
@@ -42,4 +44,5 @@ public class Q0Main {
         Q10StringToIntegerWriteYourOwnAtoi q10 = new Q10StringToIntegerWriteYourOwnAtoi();
         q10.call();
     }
+
 }

@@ -1,14 +1,16 @@
-public class Q2GivenAWordFindTheLongestWordInADictionary {
-    public void call() {
-        // Given a dictionary (list of words) and a substring,
-        // you have to return the length of the longest word in the dictinary containing the substring.
-        //
-        // Example:
-        // String[] dict = {"CODGE", "ODG", "LODGES", "SODG", "dodge", "mODJ", "LODGESSSS"}
-        // String toSearch = "ODG";
-        //
-        // Returns 9 (LODGESSSS)
 
+// Given a dictionary (list of words) and a substring,
+// you have to return the length of the longest word in the dictinary containing the substring.
+//
+// Example:
+// String[] dict = {"CODGE", "ODG", "LODGES", "SODG", "dodge", "mODJ", "LODGESSSS"}
+// String toSearch = "ODG";
+//
+// Returns 9 (LODGESSSS)
+
+public class Q2GivenAWordFindTheLongestWordInADictionary {
+
+    public void call() {
         String[] dict = {"CODGE", "ODG", "LODGES", "SODG", "dodge", "mODJ", "LODGESSSS"};
         String toSearch = "ODG"; // LODGESSSS
 
@@ -25,4 +27,5 @@ public class Q2GivenAWordFindTheLongestWordInADictionary {
 
         System.out.println(res);
     }
+
 }

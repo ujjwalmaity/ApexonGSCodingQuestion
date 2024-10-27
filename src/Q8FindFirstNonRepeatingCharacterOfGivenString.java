@@ -1,18 +1,18 @@
 import java.util.*;
 
+// Given a string,
+// return the first non-repeating character.
+//
+// Examples:
+// String str1 = "12345"
+// Return 1
+//
+// String str2 = "abbacd"
+// Return c
+
 public class Q8FindFirstNonRepeatingCharacterOfGivenString {
 
     public void call() {
-        // Given a string,
-        // return the first non-repeating character.
-        //
-        // Examples:
-        // String str1 = "12345"
-        // Return 1
-        //
-        // String str2 = "abbacd"
-        // Return c
-
         String str = "abbacd"; // c
 
         Map<Character, Integer> map = new LinkedHashMap<>();
@@ -28,4 +28,5 @@ public class Q8FindFirstNonRepeatingCharacterOfGivenString {
             }
         }
     }
+
 }

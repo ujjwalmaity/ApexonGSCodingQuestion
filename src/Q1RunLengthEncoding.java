@@ -1,10 +1,13 @@
-/// Convert a string as given in the format below:
-/// Example:
-/// aabbb into a2b3
-/// aaaa into a4
-/// a into a1
 
-public class Q1ConvertAString {
+// Run Length Encoding
+// Convert a string as given in the format below:
+// Example:
+// aabbb into a2b3
+// aaaa into a4
+// a into a1
+
+public class Q1RunLengthEncoding {
+
     public void call() {
         String text = "aabbb"; // a2b3
 
@@ -30,4 +33,5 @@ public class Q1ConvertAString {
 
         System.out.println(str);
     }
+
 }

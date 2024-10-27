@@ -1,6 +1,12 @@
 import java.util.*;
 
+// How does a HashMap work internally?
+// Code a simplistic version of the working.
+// - Implement Put/Get methods.
+// - Scaling the HashMap when it reaches full capacity.
+
 public class Q6InternalWorkingOfHashMap {
+
     public void call() {
         Map<MyKey, String> map = new HashMap<>();
         MyKey k1 = new MyKey(1, "firstKey");
@@ -32,6 +38,7 @@ public class Q6InternalWorkingOfHashMap {
         System.out.println();
         System.out.println("map size " + map.size());
     }
+
 }
 
 class MyKey {
