@@ -48,9 +48,13 @@ public class Q0Main {
         Q11MinimumInASortedAndRotatedArray q11 = new Q11MinimumInASortedAndRotatedArray();
 //        q11.call();
 
+        // Check whether a number is a power of a given number
+        Q14CheckWhetherANumberIsAPowerOfAGivenNumber q14 = new Q14CheckWhetherANumberIsAPowerOfAGivenNumber();
+        q14.call();
+
         // Find Maximum Average Marks in Student Pairs
         Q15FindMaximumAverageMarksInStudentPairs q15 = new Q15FindMaximumAverageMarksInStudentPairs();
-        q15.call();
+//        q15.call();
     }
 
 }
