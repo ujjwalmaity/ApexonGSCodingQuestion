@@ -42,7 +42,11 @@ public class Q0Main {
 
         // String to Integer - Write your own atoi()
         Q10StringToIntegerWriteYourOwnAtoi q10 = new Q10StringToIntegerWriteYourOwnAtoi();
-        q10.call();
+//        q10.call();
+
+        // Minimum in a Sorted and Rotated Array
+        Q11MinimumInASortedAndRotatedArray q11 = new Q11MinimumInASortedAndRotatedArray();
+        q11.call();
     }
 
 }
