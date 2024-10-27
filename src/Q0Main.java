@@ -46,7 +46,11 @@ public class Q0Main {
 
         // Minimum in a Sorted and Rotated Array
         Q11MinimumInASortedAndRotatedArray q11 = new Q11MinimumInASortedAndRotatedArray();
-        q11.call();
+//        q11.call();
+
+        // Find Maximum Average Marks in Student Pairs
+        Q15FindMaximumAverageMarksInStudentPairs q15 = new Q15FindMaximumAverageMarksInStudentPairs();
+        q15.call();
     }
 
 }

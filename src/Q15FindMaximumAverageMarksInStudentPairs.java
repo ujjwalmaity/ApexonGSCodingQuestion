@@ -1,22 +1,22 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Average {
+// Given a list of student names and corresponding marks,
+// return the highest average marks (and print the corresponding student name - optional).
+// The marks can be negative as well and a student may have multiple marks.
+//
+// Example:
+// String[][] = {{"Charles", 84},
+// {"John", 100},
+// {"Andy", 37},
+// {"John", 23},
+// {"Charles", 20}};
+//
+// Return 61.5 (which is of John's)
 
-    public static void main(String[] args) {
-        // Given a list of student names and corresponding marks,
-        // return the highest average marks (and print the corresponding student name - optional).
-        // The marks can be negative as well and a student may have multiple marks.
-        //
-        // Example:
-        // String[][] = {{"Charles", 84},
-        // {"John", 100},
-        // {"Andy", 37},
-        // {"John", 23},
-        // {"Charles", 20}};
-        //
-        // Return 61.5 (which is of John's)
+public class Q15FindMaximumAverageMarksInStudentPairs {
 
+    public void call() {
         String[][] cv = {{"Charles", "84"},
                 {"John", "100"},
                 {"Andy", "37"},
