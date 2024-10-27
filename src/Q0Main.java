@@ -28,6 +28,10 @@ public class Q0Main {
         // Prefix Search
         // Return All The Words Starting With The Prefix
         Q7ReturnAllTheWordsStartingWithThePrefix q7 = new Q7ReturnAllTheWordsStartingWithThePrefix();
-        q7.call();
+//        q7.call();
+
+        // Find first non-repeating character of given string
+        Q8FindFirstNonRepeatingCharacterOfGivenString q8 = new Q8FindFirstNonRepeatingCharacterOfGivenString();
+        q8.call();
     }
 }
