@@ -1,4 +1,3 @@
-
 public class Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes {
     public void call() {
         // Find the median of two sorted arrays of different sizes.

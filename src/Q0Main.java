@@ -1,5 +1,4 @@
-
-public class Main {
+public class Q0Main {
     public static void main(String[] args) {
         // Convert a String "aabbb" to "a2b3"
         Q1ConvertAString q1 = new Q1ConvertAString();
@@ -19,7 +18,11 @@ public class Main {
 
         // Find the median of two sorted arrays of different sizes
         Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes q5 = new Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes();
-        q5.call();
-        q5.call2();
+//        q5.call();
+//        q5.call2();
+
+        // Internal Working of HashMap
+        Q6InternalWorkingOfHashMap q6 = new Q6InternalWorkingOfHashMap();
+        q6.call();
     }
 }
