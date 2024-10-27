@@ -17,5 +17,9 @@ public class Main {
         Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections q4 = new Q4FindTheFinalCoOrdinatesReachedByFollowingASequenceOfDirections();
 //        q4.call();
 
+        // Find the median of two sorted arrays of different sizes
+        Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes q5 = new Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes();
+        q5.call();
+        q5.call2();
     }
 }

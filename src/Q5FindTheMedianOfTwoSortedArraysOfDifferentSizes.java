@@ -1,11 +1,13 @@
 
-public class Median {
-    public static void main(String[] args) {
-        // Q1 Find the median of 2 sorted arrays
+public class Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes {
+    public void call() {
+        // Find the median of two sorted arrays of different sizes.
+        //
         // Example:
-        // arr1[] = {2, 3, 5, 80}
+        // arr1[] = {2, 3, 5, 8}
         // arr2[] = {10, 12, 14, 16, 18, 20}
-        // Return 11 as the median"
+        //
+        // Return 11 as the median
 
         int[] arr1 = {2, 3, 5, 8};
         int[] arr2 = {10, 12, 14, 16, 18, 20};
@@ -44,7 +46,7 @@ public class Median {
             k++;
         }
 
-        double res = -1;
+        double res;
         int midIndex = arrLen / 2;
         if (arrLen % 2 == 0) {
             res = (arr[midIndex - 1] + arr[midIndex]) / 2.0;
@@ -53,5 +55,9 @@ public class Median {
         }
 
         System.out.println(res);
+    }
+
+    // TODO
+    public void call2() {
     }
 }

@@ -18,7 +18,7 @@ public class Q3InorderTraversalOfBinaryTree {
 
     // Tabulation works on Top-Down approach
     // Recursion works on Bottom-Up approach
-    static void inorderTraversal(TreeNode node) {
+    private void inorderTraversal(TreeNode node) {
         if (node == null) return;
 
         inorderTraversal(node.left);  // Visit left subtree
