@@ -32,6 +32,10 @@ public class Q0Main {
 
         // Find first non-repeating character of given string
         Q8FindFirstNonRepeatingCharacterOfGivenString q8 = new Q8FindFirstNonRepeatingCharacterOfGivenString();
-        q8.call();
+//        q8.call();
+
+        // Minimum Distance Between Words of a String
+        Q9MinimumDistanceBetweenWordsOfAString q9 = new Q9MinimumDistanceBetweenWordsOfAString();
+        q9.call();
     }
 }
