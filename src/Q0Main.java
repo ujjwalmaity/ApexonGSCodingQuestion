@@ -36,6 +36,10 @@ public class Q0Main {
 
         // Minimum Distance Between Words of a String
         Q9MinimumDistanceBetweenWordsOfAString q9 = new Q9MinimumDistanceBetweenWordsOfAString();
-        q9.call();
+//        q9.call();
+
+        // String to Integer - Write your own atoi()
+        Q10StringToIntegerWriteYourOwnAtoi q10 = new Q10StringToIntegerWriteYourOwnAtoi();
+        q10.call();
     }
 }
