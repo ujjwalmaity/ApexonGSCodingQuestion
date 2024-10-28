@@ -58,7 +58,11 @@ public class Q0Main {
 
         // Program to add two fractions
         Q21ProgramToAddTwoFractions q21 = new Q21ProgramToAddTwoFractions();
-        q21.call();
+//        q21.call();
+
+        // Climbing stairs to reach the top
+        Q22ClimbingStairsToReachTheTop q22 = new Q22ClimbingStairsToReachTheTop();
+        q22.call();
     }
 
 }
