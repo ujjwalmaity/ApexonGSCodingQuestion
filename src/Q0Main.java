@@ -78,7 +78,13 @@ public class Q0Main {
 
         // Longest Palindromic Substring
         Q24LongestPalindromicSubstring q24 = new Q24LongestPalindromicSubstring();
-        q24.call();
+//        q24.call();
+
+        // Switching 100 Light Bulbs
+        Q25Switching100LightBulbs q25 = new Q25Switching100LightBulbs();
+        q25.call();
+        q25.call2();
+        q25.call3();
     }
 
 }
