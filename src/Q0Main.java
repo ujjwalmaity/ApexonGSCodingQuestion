@@ -82,9 +82,13 @@ public class Q0Main {
 
         // Switching 100 Light Bulbs
         Q25Switching100LightBulbs q25 = new Q25Switching100LightBulbs();
-        q25.call();
-        q25.call2();
-        q25.call3();
+//        q25.call();
+//        q25.call2();
+//        q25.call3();
+
+        // Pascal Triangle
+        Q29PascalTriangle q29 = new Q29PascalTriangle();
+        q29.call();
     }
 
 }
