@@ -58,7 +58,7 @@ public class Q0Main {
 
         // Most Frequent IP Address
         Q16MostFrequentIPAddress q16 = new Q16MostFrequentIPAddress();
-        q16.call();
+//        q16.call();
 
         // Find the smallest missing number from sorted array
         Q18FindTheSmallestMissingNumberFromSortedArray q18 = new Q18FindTheSmallestMissingNumberFromSortedArray();
@@ -75,6 +75,10 @@ public class Q0Main {
         // Climbing stairs to reach the top
         Q22ClimbingStairsToReachTheTop q22 = new Q22ClimbingStairsToReachTheTop();
 //        q22.call();
+
+        // Longest Palindromic Substring
+        Q24LongestPalindromicSubstring q24 = new Q24LongestPalindromicSubstring();
+        q24.call();
     }
 
 }
