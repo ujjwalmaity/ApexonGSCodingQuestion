@@ -56,13 +56,17 @@ public class Q0Main {
         Q15FindMaximumAverageMarksInStudentPairs q15 = new Q15FindMaximumAverageMarksInStudentPairs();
 //        q15.call();
 
+        // Fraction to Recurring Decimal
+        Q19FractionToRecurringDecimal q19 = new Q19FractionToRecurringDecimal();
+        q19.call();
+
         // Program to add two fractions
         Q21ProgramToAddTwoFractions q21 = new Q21ProgramToAddTwoFractions();
 //        q21.call();
 
         // Climbing stairs to reach the top
         Q22ClimbingStairsToReachTheTop q22 = new Q22ClimbingStairsToReachTheTop();
-        q22.call();
+//        q22.call();
     }
 
 }
