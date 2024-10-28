@@ -50,11 +50,15 @@ public class Q0Main {
 
         // Check whether a number is a power of a given number
         Q14CheckWhetherANumberIsAPowerOfAGivenNumber q14 = new Q14CheckWhetherANumberIsAPowerOfAGivenNumber();
-        q14.call();
+//        q14.call();
 
         // Find Maximum Average Marks in Student Pairs
         Q15FindMaximumAverageMarksInStudentPairs q15 = new Q15FindMaximumAverageMarksInStudentPairs();
 //        q15.call();
+
+        // Program to add two fractions
+        Q21ProgramToAddTwoFractions q21 = new Q21ProgramToAddTwoFractions();
+        q21.call();
     }
 
 }
