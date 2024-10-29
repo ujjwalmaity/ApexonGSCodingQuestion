@@ -68,6 +68,10 @@ public class Q0Main {
         Q19FractionToRecurringDecimal q19 = new Q19FractionToRecurringDecimal();
 //        q19.call();
 
+        // Largest Substring with Same Characters
+        Q20LargestSubstringWithSameCharacters q20 = new Q20LargestSubstringWithSameCharacters();
+        q20.call();
+
         // Program to add two fractions
         Q21ProgramToAddTwoFractions q21 = new Q21ProgramToAddTwoFractions();
 //        q21.call();
@@ -88,7 +92,7 @@ public class Q0Main {
 
         // Pascal Triangle
         Q29PascalTriangle q29 = new Q29PascalTriangle();
-        q29.call();
+//        q29.call();
     }
 
 }
