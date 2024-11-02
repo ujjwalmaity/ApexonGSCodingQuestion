@@ -20,8 +20,8 @@ public class Q0Main {
 
         // Find the median of two sorted arrays of different sizes
         Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes q5 = new Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes();
-//        q5.call();
-//        q5.call2();
+        q5.call();
+        q5.call2();
 
         // Internal Working of HashMap
         Q6InternalWorkingOfHashMap q6 = new Q6InternalWorkingOfHashMap();
@@ -92,9 +92,9 @@ public class Q0Main {
 
         // Pascal Triangle
         Q29PascalTriangle q29 = new Q29PascalTriangle();
-        q29.call();
-        q29.call2();
-        q29.call3();
+//        q29.call();
+//        q29.call2();
+//        q29.call3();
     }
 
 }
