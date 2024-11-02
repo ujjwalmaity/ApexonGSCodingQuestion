@@ -20,8 +20,8 @@ public class Q0Main {
 
         // Find the median of two sorted arrays of different sizes
         Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes q5 = new Q5FindTheMedianOfTwoSortedArraysOfDifferentSizes();
-        q5.call();
-        q5.call2();
+//        q5.call();
+//        q5.call2();
 
         // Internal Working of HashMap
         Q6InternalWorkingOfHashMap q6 = new Q6InternalWorkingOfHashMap();
@@ -47,6 +47,10 @@ public class Q0Main {
         // Minimum in a Sorted and Rotated Array
         Q11MinimumInASortedAndRotatedArray q11 = new Q11MinimumInASortedAndRotatedArray();
 //        q11.call();
+
+        // Can Bishop Reach
+        Q12CanBishopReach q12 = new Q12CanBishopReach();
+        q12.call();
 
         // Check whether a number is a power of a given number
         Q14CheckWhetherANumberIsAPowerOfAGivenNumber q14 = new Q14CheckWhetherANumberIsAPowerOfAGivenNumber();
