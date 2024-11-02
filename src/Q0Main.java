@@ -50,7 +50,12 @@ public class Q0Main {
 
         // Can Bishop Reach
         Q12CanBishopReach q12 = new Q12CanBishopReach();
-        q12.call();
+//        q12.call();
+
+        // Shortest sub-array with sum K
+        Q13ShortestSubArrayWithSumK q13 = new Q13ShortestSubArrayWithSumK();
+        q13.call();
+        q13.call2();
 
         // Check whether a number is a power of a given number
         Q14CheckWhetherANumberIsAPowerOfAGivenNumber q14 = new Q14CheckWhetherANumberIsAPowerOfAGivenNumber();
