@@ -70,7 +70,7 @@ public class Q0Main {
 
         // Largest Substring with Same Characters
         Q20LargestSubstringWithSameCharacters q20 = new Q20LargestSubstringWithSameCharacters();
-        q20.call();
+//        q20.call();
 
         // Program to add two fractions
         Q21ProgramToAddTwoFractions q21 = new Q21ProgramToAddTwoFractions();
@@ -92,7 +92,9 @@ public class Q0Main {
 
         // Pascal Triangle
         Q29PascalTriangle q29 = new Q29PascalTriangle();
-//        q29.call();
+        q29.call();
+        q29.call2();
+        q29.call3();
     }
 
 }
