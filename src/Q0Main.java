@@ -71,7 +71,7 @@ public class Q0Main {
 
         // Find Anagrams
         Q17FindAnagrams q17 = new Q17FindAnagrams();
-        q17.call();
+//        q17.call();
 
         // Find the smallest missing number from sorted array
         Q18FindTheSmallestMissingNumberFromSortedArray q18 = new Q18FindTheSmallestMissingNumberFromSortedArray();
@@ -92,6 +92,10 @@ public class Q0Main {
         // Climbing stairs to reach the top
         Q22ClimbingStairsToReachTheTop q22 = new Q22ClimbingStairsToReachTheTop();
 //        q22.call();
+
+        // Maximum path sum in matrix
+        Q23MaximumPathSumInMatrix q23 = new Q23MaximumPathSumInMatrix();
+        q23.call();
 
         // Longest Palindromic Substring
         Q24LongestPalindromicSubstring q24 = new Q24LongestPalindromicSubstring();

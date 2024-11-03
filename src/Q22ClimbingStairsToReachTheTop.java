@@ -19,7 +19,7 @@ public class Q22ClimbingStairsToReachTheTop {
         System.out.println(countWays3(n));
     }
 
-    // Using Recursion – O(2^n) Time and O(n) Space
+    // Using Top-Down Recursion – O(2^n) Time and O(n) Space
     private int countWays1(int n) {
         if (n == 0) return 1;
         if (n == 1) return 1;
@@ -27,7 +27,8 @@ public class Q22ClimbingStairsToReachTheTop {
         return countWays1(n - 1) + countWays1(n - 2);
     }
 
-    // Using Top-Down DP (Recursion) – O(n) Time and O(n) Space
+    // Dynamic Programming (DP)
+    // Using Top-Down Recursion with Memorization – O(n) Time and O(n) Space
     private int countWays2(int n, int[] memo) {
         if (n == 0) return 1;
         if (n == 1) return 1;
