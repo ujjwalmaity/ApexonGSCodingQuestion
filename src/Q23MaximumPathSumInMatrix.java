@@ -1,3 +1,5 @@
+import java.util.*;
+
 // Given a matrix of size n * m,
 // return the maximum path sum in the matrix.
 // [You start from the top-left corner of the matrix and may up, down and diagonally].
@@ -22,24 +24,34 @@ public class Q23MaximumPathSumInMatrix {
         int row = matrix.length;
         int column = matrix[0].length;
 
+        int[][] dp = new int[row][column];
+        for (int[] dpRow : dp) {
+            Arrays.fill(dpRow, -1);
+        }
+
         int maxi = Integer.MIN_VALUE; // (int) -1e9
 
         for (int j = 0; j < column; j++) {
-            int maxPathValue = maxPath(row - 1, j, matrix, row, column);
+            int maxPathValue = maxPath(row - 1, j, matrix, row, column, dp);
             maxi = Math.max(maxi, maxPathValue);
         }
 
         System.out.println(maxi);
     }
 
-    private int maxPath(int i, int j, int[][] matrix, int n, int m) {
+    // Recursion
+    // Time Complexity without memorization: O(2^m*n)
+    // Time Complexity with memorization: O(m*n)
+    private int maxPath(int i, int j, int[][] matrix, int n, int m, int[][] dp) {
         if (j < 0 || j >= m) return Integer.MIN_VALUE;
         if (i == 0) return matrix[0][j];
 
-        int up = matrix[i][j] + maxPath(i - 1, j, matrix, n, m);
-        int leftDiagonal = matrix[i][j] + maxPath(i - 1, j - 1, matrix, n, m);
-        int rightDiagonal = matrix[i][j] + maxPath(i - 1, j + 1, matrix, n, m);
+        if (dp[i][j] != -1) return dp[i][j];
 
-        return Math.max(up, Math.max(leftDiagonal, rightDiagonal));
+        int up = matrix[i][j] + maxPath(i - 1, j, matrix, n, m, dp);
+        int leftDiagonal = matrix[i][j] + maxPath(i - 1, j - 1, matrix, n, m, dp);
+        int rightDiagonal = matrix[i][j] + maxPath(i - 1, j + 1, matrix, n, m, dp);
+
+        return dp[i][j] = Math.max(up, Math.max(leftDiagonal, rightDiagonal));
     }
 }
