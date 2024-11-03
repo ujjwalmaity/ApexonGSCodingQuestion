@@ -1,4 +1,3 @@
-
 public class Q0Main {
 
     public static void main(String[] args) {
@@ -111,7 +110,12 @@ public class Q0Main {
 
         // Check loop in array
         Q27CheckLoopInArray q27 = new Q27CheckLoopInArray();
-        q27.call();
+//        q27.call();
+
+        // Sort an array in wave form
+        Q28SortAnArrayInWaveForm q28 = new Q28SortAnArrayInWaveForm();
+        q28.call();
+//        q28.call2();
 
         // Pascal Triangle
         Q29PascalTriangle q29 = new Q29PascalTriangle();
