@@ -95,9 +95,9 @@ public class Q0Main {
 
         // Maximum path sum in matrix
         Q23MaximumPathSumInMatrix q23 = new Q23MaximumPathSumInMatrix();
-        q23.call();
-        q23.call2();
-        q23.call3();
+//        q23.call();
+//        q23.call2();
+//        q23.call3();
 
         // Longest Palindromic Substring
         Q24LongestPalindromicSubstring q24 = new Q24LongestPalindromicSubstring();
@@ -108,6 +108,10 @@ public class Q0Main {
 //        q25.call();
 //        q25.call2();
 //        q25.call3();
+
+        // Check loop in array
+        Q27CheckLoopInArray q27 = new Q27CheckLoopInArray();
+        q27.call();
 
         // Pascal Triangle
         Q29PascalTriangle q29 = new Q29PascalTriangle();
