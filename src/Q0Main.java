@@ -54,8 +54,8 @@ public class Q0Main {
 
         // Shortest sub-array with sum K
         Q13ShortestSubArrayWithSumK q13 = new Q13ShortestSubArrayWithSumK();
-        q13.call();
-        q13.call2();
+//        q13.call();
+//        q13.call2();
 
         // Check whether a number is a power of a given number
         Q14CheckWhetherANumberIsAPowerOfAGivenNumber q14 = new Q14CheckWhetherANumberIsAPowerOfAGivenNumber();
@@ -68,6 +68,10 @@ public class Q0Main {
         // Most Frequent IP Address
         Q16MostFrequentIPAddress q16 = new Q16MostFrequentIPAddress();
 //        q16.call();
+
+        // Find Anagrams
+        Q17FindAnagrams q17 = new Q17FindAnagrams();
+        q17.call();
 
         // Find the smallest missing number from sorted array
         Q18FindTheSmallestMissingNumberFromSortedArray q18 = new Q18FindTheSmallestMissingNumberFromSortedArray();
