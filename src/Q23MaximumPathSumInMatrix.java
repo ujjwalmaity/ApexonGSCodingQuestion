@@ -39,9 +39,15 @@ public class Q23MaximumPathSumInMatrix {
         System.out.println(maxi);
     }
 
-    // Recursion
-    // Time Complexity without memorization: O(2^m*n)
-    // Time Complexity with memorization: O(m*n)
+    // Recursion Approach
+    // Time Complexity without memorization: O(2^n*m)
+    // Space Complexity: recursion stack space O(n)
+    //
+    // Memorization Approach
+    // Time Complexity with memorization: O(n*m)
+    // Space Complexity: recursion stack space O(n) + external DP Array O(n*m)
+    //
+    // Recursion works on Top-Down approach
     private int maxPath(int i, int j, int[][] matrix, int n, int m, int[][] dp) {
         if (j < 0 || j >= m) return Integer.MIN_VALUE;
         if (i == 0) return matrix[0][j];
@@ -55,8 +61,11 @@ public class Q23MaximumPathSumInMatrix {
         return dp[i][j] = Math.max(up, Math.max(leftDiagonal, rightDiagonal));
     }
 
-    // Tabulation
-    // Time Complexity: O(m*n)
+    // Tabulation Approach
+    // Time Complexity: O(n*m)
+    // Space Complexity: external DP Array O(n*m)
+    //
+    // Tabulation works on Bottom-Up approach
     public void call2() {
         int[][] matrix = {
                 {10, 10, 2, 0, 20, 4},
@@ -92,6 +101,52 @@ public class Q23MaximumPathSumInMatrix {
 
         for (int j = 0; j < column; j++) {
             int maxPathValue = dp[row - 1][j];
+            maxi = Math.max(maxi, maxPathValue);
+        }
+
+        System.out.println(maxi);
+    }
+
+    // Space Optimization Approach
+    // Time Complexity: O(n*m)
+    // Space Complexity: external Array O(m)
+    public void call3() {
+        int[][] matrix = {
+                {10, 10, 2, 0, 20, 4},
+                {1, 0, 0, 30, 2, 5},
+                {0, 10, 4, 0, 2, 0},
+                {1, 0, 2, 20, 0, 4}};
+
+        int row = matrix.length;
+        int column = matrix[0].length;
+
+        int[] prev = new int[column];
+        for (int j = 0; j < column; j++) {
+            prev[j] = matrix[0][j];
+        }
+
+        for (int i = 1; i < row; i++) {
+            int[] cur = new int[column];
+            for (int j = 0; j < column; j++) {
+                int up = matrix[i][j] + prev[j];
+
+                int leftDiagonal = matrix[i][j];
+                if (j - 1 >= 0) leftDiagonal += prev[j - 1];
+                else leftDiagonal += Integer.MIN_VALUE;
+
+                int rightDiagonal = matrix[i][j];
+                if (j + 1 < column) rightDiagonal += prev[j + 1];
+                else rightDiagonal += Integer.MIN_VALUE;
+
+                cur[j] = Math.max(up, Math.max(leftDiagonal, rightDiagonal));
+            }
+            prev = cur;
+        }
+
+        int maxi = Integer.MIN_VALUE;
+
+        for (int j = 0; j < column; j++) {
+            int maxPathValue = prev[j];
             maxi = Math.max(maxi, maxPathValue);
         }
 

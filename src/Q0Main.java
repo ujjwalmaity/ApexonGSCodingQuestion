@@ -97,6 +97,7 @@ public class Q0Main {
         Q23MaximumPathSumInMatrix q23 = new Q23MaximumPathSumInMatrix();
         q23.call();
         q23.call2();
+        q23.call3();
 
         // Longest Palindromic Substring
         Q24LongestPalindromicSubstring q24 = new Q24LongestPalindromicSubstring();
