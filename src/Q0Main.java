@@ -108,13 +108,17 @@ public class Q0Main {
 //        q25.call2();
 //        q25.call3();
 
+        // Josephus Problem
+        Q26JosephusProblem q26 = new Q26JosephusProblem();
+        q26.call();
+
         // Check loop in array
         Q27CheckLoopInArray q27 = new Q27CheckLoopInArray();
 //        q27.call();
 
         // Sort an array in wave form
         Q28SortAnArrayInWaveForm q28 = new Q28SortAnArrayInWaveForm();
-        q28.call();
+//        q28.call();
 //        q28.call2();
 
         // Pascal Triangle
