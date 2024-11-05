@@ -1,18 +1,33 @@
 
+Project Name: OMINI
+
+Client: Own product of Yes Securities
+
+Domain: Banking
+
+Users: Trader & Investor
+
+Description: It is a Stock broking application. Where user check Market Info, can analyse stock,
+track the stock by adding in watchlist, buy/sell stocks, can check his Position & Holdings,
+can apply in ipo, can check all his account reports like payin-payout, P&L, etc.
+
+
+=====================================================================================================
+
 Introduction:
 
 My name is Ujjwal Maity. Currently working in Apexon. I have 4 years of experience in Java.
 My last company was Yes Securities there I developed OMINI which was a Stock broking applications. 
 
-The primary goal of the project was to provide a platrom to user where user can buy/sell stocks,
-can track stcok, can view his portfolio, can apply in ipo, can check all his acoount reports, etc.
+The primary goal of the project was to provide a platform to user where user can buy/sell stocks,
+can track stock, can view his portfolio, can apply in ipo, can check all his account reports, etc.
 
 I was responsible for creating the middleware and admin REST APIs
 using Java, Spring Boot and Hibernate
-for Login, Profile & Settings, Dahboard, Watchlist, Reports, Price Alert & Notification, Help & Support modules.
+for Login, Profile & Settings, Dashboard, Watchlist, Reports, Price Alert & Notification, Help & Support modules.
 
-We are using Microservice architecture, MongoDB & PostgreSQL for database,
-Redis for caching, JWT for authentication, Git to collaborate with my team mates.
+We are using Microservice architecture, MongoDB & PostgresSQL for database,
+Redis for caching, JWT for authentication, Git to collaborate with my teammates.
 I integrated third-party REST APIs, SMS & Email sending service. 
 
 This project enhanced my experience in microservices architecture.
@@ -21,7 +36,7 @@ Difficulty:
 
 - Performance issue because of multiple request at a same time
 - We use redis to cache data,
-    so that every query does not goes to db,
-    it fetch data from Redis.
+    so that every query does not go to db,
+    it fetches data from Redis.
     It helps to improve performance.
 
