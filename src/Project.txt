@@ -11,6 +11,20 @@ Description: It is a Stock broking application. Where user check Market Info, ca
 track the stock by adding in watchlist, buy/sell stocks, can check his Position & Holdings,
 can apply in ipo, can check all his account reports like payin-payout, P&L, etc.
 
+Module:
+1. Login
+2. Dashboard
+3. Watchlist
+4. Price Alert
+5. Report
+    - View report, Generate pdf, Send via email
+    - Filter by Segment like Equity, F&O, Currency
+    - Filter by Date
+        - Tread Summary (stock name, quantity, exchange, order type buy/sell, timestamp, average price, trade id)
+        - Fund Transfer (deposited/withdraw amount, date)
+        - Profit/Loss (stock, quantity, short/long term,buy value, sell value, p/l, p/l %)
+        - Brokerage & Charges
+        - Holding
 
 =====================================================================================================
 
