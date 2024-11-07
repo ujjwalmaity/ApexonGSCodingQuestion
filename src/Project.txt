@@ -14,7 +14,14 @@ can apply in ipo, can check all his account reports like payin-payout, P&L, etc.
 Module:
 1. Login
 2. Dashboard
+    - Research stocks (Short Term, Long Term)
+    - Top stocks (Most Active, Top Gainers, Top Losers)
+    - Indices (Equity, Currencies, World)
+    - Top Stories
+    - Sector Heatmap
 3. Watchlist
+    - Create, Edit, Delete watchlist
+    - Add stock, change sequence of stocks
 4. Price Alert
 5. Report
     - View report, Generate pdf, Send via email
